@@ -21,6 +21,7 @@ int main() {
             printf("Number out of range");
             fflush(stdin);
             cond = 1;
+            ch = ' ';
         }
     } while(cond);
     ch = ' ';
@@ -52,6 +53,7 @@ int main() {
             printf("Low border is higher then top one or equals to it\n");
             fflush(stdin);
             cond = 1;
+            ch = ' ';
         }
 
     } while(cond);
@@ -72,6 +74,7 @@ int main() {
             printf("Step must be higher then 0\n");
             fflush(stdin);
             cond = 1;
+            ch = ' ';
         }
 
     } while(cond);
@@ -92,6 +95,7 @@ int main() {
             printf("Precision must be higher then 0\n");
             fflush(stdin);
             cond = 1;
+            ch = ' ';
         }
 
     } while(cond);
