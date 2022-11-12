@@ -114,7 +114,7 @@ int main() {
                 n += 2;
             }
 
-            printf("%.2f\t\t%.*f\t\t\t%.*f\t\t\t%.*f\n", x, e, sinx, e, sin(radian), e, fabs(sinx - sin(radian)));
+            printf("%.2f\t\t%.*f%24.*f%24.*f\n", x, e, sinx, e, sin(radian), e, fabs(sinx - sin(radian)));
             x += dx;
         }
     } else {
@@ -128,7 +128,7 @@ int main() {
                 n++;
             }
 
-            printf("%.2f\t\t%.*f\t\t\t%.*f\t\t\t%.*f\n", x, e, cosx, e, cos(radian), e, fabs(cosx - cos(radian)));
+            printf("%.2f\t\t%.*f%24.*f%24.*f\n", x, e, cosx, e, cos(radian), e, fabs(cosx - cos(radian)));
             x += dx;
         }
     }
